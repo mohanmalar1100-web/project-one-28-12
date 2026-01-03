@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/mohanmalar1100-web/project-one-28-12'
             }
         }
