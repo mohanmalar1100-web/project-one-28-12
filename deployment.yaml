@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web-container
-          image: mohanmalar1100-web/project-one-28-12
+          image: mohanmalar1100-web/project-1
           ports:
             - containerPort: 80
 
